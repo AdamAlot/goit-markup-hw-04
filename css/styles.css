@@ -94,6 +94,7 @@ img {
 }
 
 .link-contact {
+  display: block;
   text-decoration: none;
   font-size: 14px;
   line-height: 1.17;
@@ -246,7 +247,6 @@ img {
   color: var(--text-contacts-color);
   letter-spacing: 0.03em;
   text-align: center;
-  padding-bottom: 30px;
 }
 
 /* RESULTS */
@@ -329,7 +329,7 @@ img {
   margin: 0;
 }
 .column-item {
-  flex-basis: calc((100% - 30px) / 4);
+  flex-basis: calc((100% - 60 px) / 4);
   margin: 0 auto;
 }
 
@@ -389,20 +389,32 @@ img {
 }
 
 .social-icons {
+  display: block;
+  margin: 0;
   padding: 16px 32px 18px 32px;
 }
+
+.socialist {
+  display: flex;
+  flex-flow: row;
+  row-gap: 0;
+  justify-items: center;
+  justify-content: space-around;
+  margin: 0;
+}
+
 .instagram {
   fill: var(--icon-color);
-  padding: 12px;
-  border-radius: 50%;
+  padding: 12px 12.04px;
 }
 .instagram:hover {
   fill: var(--text-second-color);
   background-color: var(--brand-color);
+  border-radius: 50%;
 }
 .twitter {
   fill: var(--icon-color);
-  padding: 12px;
+  padding: 12px 12.04px;
   border-radius: 50%;
 }
 .twitter:hover {
@@ -411,7 +423,7 @@ img {
 }
 .facebook {
   fill: var(--icon-color);
-  padding: 12px;
+  padding: 12px 12.04px;
   border-radius: 50%;
 }
 .facebook:hover {
@@ -420,12 +432,12 @@ img {
 }
 .linkedin {
   fill: var(--icon-color);
-  padding: 12px;
-  border-radius: 50%;
+  padding: 12px 12.04px;
 }
 .linkedin:hover {
   fill: var(--text-second-color);
   background-color: var(--brand-color);
+  border-radius: 50%;
 }
 
 .customer-logo-1 {
