@@ -406,11 +406,15 @@ img {
 .instagram {
   fill: var(--icon-color);
   padding: 12px 12.04px;
+  border-radius: 50%;
 }
 .instagram:hover {
   fill: var(--text-second-color);
   background-color: var(--brand-color);
-  border-radius: 50%;
+}
+.instagram:focus {
+  fill: var(--text-second-color);
+  background-color: var(--brand-color);
 }
 .twitter {
   fill: var(--icon-color);
@@ -418,6 +422,10 @@ img {
   border-radius: 50%;
 }
 .twitter:hover {
+  fill: var(--text-second-color);
+  background-color: var(--brand-color);
+}
+.twitter:focus {
   fill: var(--text-second-color);
   background-color: var(--brand-color);
 }
@@ -430,6 +438,10 @@ img {
   fill: var(--text-second-color);
   background-color: var(--brand-color);
 }
+.facebook:focus {
+  fill: var(--text-second-color);
+  background-color: var(--brand-color);
+}
 .linkedin {
   fill: var(--icon-color);
   padding: 12px 12.04px;
@@ -439,43 +451,56 @@ img {
   background-color: var(--brand-color);
   border-radius: 50%;
 }
+.linkedin:focus {
+  fill: var(--text-second-color);
+  background-color: var(--brand-color);
+  border-radius: 50%;
+}
 
 .customer-logo-1 {
   fill: var(--icon-color);
   border: 1px solid var(--icon-color);
   border-radius: 4px;
-  padding: 24.71px 65px 20.58px 64px;
+  padding: 17.71px 32px 14.25px 32px;
 }
 .customer-logo-2 {
   fill: var(--icon-color);
   border: 1px solid var(--icon-color);
   border-radius: 4px;
-  padding: 24px 38px;
+  padding: 17.71px 32px 14.25px 32px;
 }
 .customer-logo-3 {
   fill: var(--icon-color);
   border: 1px solid var(--icon-color);
   border-radius: 4px;
-  padding: 24px 38px;
+  padding: 16px 32px;
 }
 
 .customer-logo-4 {
   fill: var(--icon-color);
   border: 1px solid var(--icon-color);
   border-radius: 4px;
-  padding: 24px 38px;
+  padding: 16px 32px;
 }
 
 .customer-logo-5 {
   fill: var(--icon-color);
   border: 1px solid var(--icon-color);
   border-radius: 4px;
-  padding: 24px 38px;
+  padding: 16px 32px;
 }
 
 .customer-logo-6 {
   fill: var(--icon-color);
   border: 1px solid var(--icon-color);
   border-radius: 4px;
-  padding: 24px 38px;
+  padding: 16px 32px;
+}
+.customer-efect:hover {
+  fill: var(--brand-color);
+  border-color: var(--brand-color);
+}
+.customer-efect:focus {
+  fill: var(--brand-color);
+  border-color: var(--brand-color);
 }
