@@ -312,6 +312,7 @@ img {
 .grid-item:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
 }
 
 .section-grid {
@@ -404,60 +405,57 @@ img {
 }
 
 .instagram {
+  display: flex;
   fill: var(--icon-color);
-  padding: 12px 12.04px;
+  padding: 12px;
   border-radius: 50%;
 }
-.instagram:hover {
-  fill: var(--text-second-color);
-  background-color: var(--brand-color);
-}
+.instagram:hover,
 .instagram:focus {
   fill: var(--text-second-color);
   background-color: var(--brand-color);
+  cursor: pointer;
 }
 .twitter {
+  display: flex;
   fill: var(--icon-color);
-  padding: 12px 12.04px;
+  padding: 12px;
   border-radius: 50%;
 }
-.twitter:hover {
-  fill: var(--text-second-color);
-  background-color: var(--brand-color);
-}
+.twitter:hover,
 .twitter:focus {
   fill: var(--text-second-color);
   background-color: var(--brand-color);
+  cursor: pointer;
 }
 .facebook {
+  display: flex;
   fill: var(--icon-color);
-  padding: 12px 12.04px;
+  padding: 12px;
   border-radius: 50%;
 }
-.facebook:hover {
-  fill: var(--text-second-color);
-  background-color: var(--brand-color);
-}
+.facebook:hover,
 .facebook:focus {
   fill: var(--text-second-color);
   background-color: var(--brand-color);
+  cursor: pointer;
 }
+
 .linkedin {
+  display: flex;
   fill: var(--icon-color);
-  padding: 12px 12.04px;
-}
-.linkedin:hover {
-  fill: var(--text-second-color);
-  background-color: var(--brand-color);
+  padding: 12px;
   border-radius: 50%;
 }
+.linkedin:hover,
 .linkedin:focus {
   fill: var(--text-second-color);
   background-color: var(--brand-color);
-  border-radius: 50%;
+  cursor: pointer;
 }
 
 .customer-logo-1 {
+  display: flex;
   fill: var(--icon-color);
   border: 1px solid var(--icon-color);
   border-radius: 4px;
@@ -498,9 +496,84 @@ img {
 }
 .customer-efect:hover {
   fill: var(--brand-color);
+  cursor: pointer;
   border-color: var(--brand-color);
 }
 .customer-efect:focus {
   fill: var(--brand-color);
   border-color: var(--brand-color);
+  cursor: pointer;
+}
+.main-footer-column {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.get-us {
+  padding-top: 72px;
+  padding-bottom: 19.75px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-second-color);
+}
+.social-footer {
+  display: flex;
+  flex-direction: column;
+  column-gap: 10px;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.insta {
+  display: flex;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  fill: var(--icon-color);
+}
+
+.insta:hover,
+.insta:focus {
+  fill: var(--text-second-color);
+  background-color: var(--brand-color);
+}
+.twitt {
+  display: flex;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  fill: var(--icon-color);
+}
+.twitt:hover,
+.twitt:focus {
+  fill: var(--text-second-color);
+  background-color: var(--brand-color);
+}
+.fb {
+  display: flex;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  fill: var(--icon-color);
+}
+.fb:hover,
+.fb:focus {
+  fill: var(--text-second-color);
+  background-color: var(--brand-color);
+}
+.linken {
+  display: flex;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  fill: var(--icon-color);
+}
+.linken:hover,
+.linken:focus {
+  fill: var(--text-second-color);
+  background-color: var(--brand-color);
 }
