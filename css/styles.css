@@ -202,8 +202,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--text-color);
-  /*padding-top: 30px;
-  padding-bottom: 10px;*/
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 /*SECTION ARTICLES*/
@@ -383,6 +383,7 @@ img {
 .lorem-icon {
   display: flex;
   flex-flow: column;
+  column-gap: 30px;
   align-items: center;
   background: var(--background-button-color);
   border-radius: 4px;
@@ -462,12 +463,14 @@ img {
   padding: 17.71px 32px 14.25px 32px;
 }
 .customer-logo-2 {
+  display: flex;
   fill: var(--icon-color);
   border: 1px solid var(--icon-color);
   border-radius: 4px;
   padding: 17.71px 32px 14.25px 32px;
 }
 .customer-logo-3 {
+  display: flex;
   fill: var(--icon-color);
   border: 1px solid var(--icon-color);
   border-radius: 4px;
@@ -475,6 +478,7 @@ img {
 }
 
 .customer-logo-4 {
+  display: flex;
   fill: var(--icon-color);
   border: 1px solid var(--icon-color);
   border-radius: 4px;
@@ -482,6 +486,7 @@ img {
 }
 
 .customer-logo-5 {
+  display: flex;
   fill: var(--icon-color);
   border: 1px solid var(--icon-color);
   border-radius: 4px;
@@ -489,6 +494,7 @@ img {
 }
 
 .customer-logo-6 {
+  display: flex;
   fill: var(--icon-color);
   border: 1px solid var(--icon-color);
   border-radius: 4px;
