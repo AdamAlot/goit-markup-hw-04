@@ -42,18 +42,18 @@
               <li><a class="link" href="#">Kontakt</a></li>
             </ul>
           </nav>
-          <ul class="list navi-list">
+          <ul class="list mail-phone"> <!--było navi-list-->
             <li>
-              <a class="link-contact link" href="mailto:info@devstudio.com"
-                ><svg width="16px" height="12px>">
+              <a class="link-contact mail-icon" href="mailto:info@devstudio.com"
+                ><svg class="ixon-mail"  width="16px" height="12px">
                   <use href="./images/icons.svg#icon-envelope"></use>
                 </svg>
                 info@devstudio.com</a
               >
             </li>
             <li>
-              <a class="link-contact link" href="tel:+48111111111">
-                <svg width="10px" height="16px>">
+              <a class="link-contact phone-icon" href="tel:+48111111111">
+                <svg class="ixon-tel"  width="10px" height="16px">
                   <use href="./images/icons.svg#icon-smartphone"></use></svg
                 >+48 111 111 111</a
               >
@@ -415,9 +415,10 @@
 
       <!-- STOPKA -->
       <footer class="footer">
+        <div class="container">
         <ul class="list main-footer-column">
-          <li>
-            <div class="container">
+          <li >
+            <!--był tu div container-->
               <ul class="list footer-column">
                 <li>
                   <div class="box-bottom">
@@ -446,13 +447,12 @@
                   </address>
                 </li>
               </ul>
-            </div>
+            
           </li>
-          <li>
-            <div class="container">
+          <li >
               <p class="get-us">Dołącz do nas</p>
               <div class="social-footer">
-                <ul class="list column">
+                <ul class="list social-column">
                   <li class="column-item">
                     <a class="insta" href="http://instagram.com">
                       <svg width="20px" height="20px">
@@ -486,10 +486,10 @@
                   </li>
                 </ul>
               </div>
-            </div>
-          </li>
+                      </li>
         </ul>
       </footer>
     </div>
+  </div>
   </body>
 </html>

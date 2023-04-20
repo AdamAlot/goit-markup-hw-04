@@ -20,6 +20,7 @@ body {
 img {
   display: block;
 }
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -51,7 +52,20 @@ img {
   align-items: center;
   gap: 46px;
 }
-
+.mail-phone {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 30px;
+}
+.ixon-mail {
+  margin-right: 10px;
+  margin-top: 34px;
+}
+.ixon-tel {
+  margin-right: 10px;
+  margin-top: 33px;
+}
 /*LOGO*/
 .logo-link {
   text-decoration: none;
@@ -94,12 +108,33 @@ img {
 }
 
 .link-contact {
-  display: block;
   text-decoration: none;
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--text-contacts-color);
+}
+.link-contact:hover,
+.link-contact:focus {
+  color: var(--brand-color);
+}
+
+.mail-icon {
+  width: 16px;
+  height: 12px;
+}
+.mail-icon:hover,
+.mail-icon:focus {
+  fill: var(--brand-color);
+}
+
+.phone-icon {
+  width: 10px;
+  height: 16px;
+}
+.phone-icon:hover,
+.phone-icon:focus {
+  fill: var(--brand-color);
 }
 
 .link-contact-footer {
@@ -171,7 +206,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 25px 0;
+  padding: 25px 15px;
 }
 .main-header {
   font-weight: 900;
@@ -513,15 +548,14 @@ img {
 .main-footer-column {
   display: flex;
   flex-wrap: nowrap;
+  gap: 70px;
 }
 .get-us {
   padding-top: 72px;
   padding-bottom: 19.75px;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--text-second-color);
@@ -582,4 +616,11 @@ img {
 .linken:focus {
   fill: var(--text-second-color);
   background-color: var(--brand-color);
+}
+
+.social-column {
+  display: flex;
+  flex-wrap: nowrap;
+  column-gap: 10px;
+  margin: 0;
 }
