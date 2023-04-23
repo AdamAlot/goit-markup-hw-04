@@ -60,11 +60,10 @@ img {
 }
 .ixon-mail {
   margin-right: 10px;
-  margin-top: 34px;
 }
+
 .ixon-tel {
   margin-right: 10px;
-  margin-top: 33px;
 }
 /*LOGO*/
 .logo-link {
@@ -117,23 +116,6 @@ img {
 .link-contact:hover,
 .link-contact:focus {
   color: var(--brand-color);
-}
-
-.mail-icon {
-  width: 16px;
-  height: 12px;
-}
-.mail-icon:hover,
-.mail-icon:focus {
-  fill: var(--brand-color);
-}
-
-.phone-icon {
-  width: 10px;
-  height: 16px;
-}
-.phone-icon:hover,
-.phone-icon:focus {
   fill: var(--brand-color);
 }
 
