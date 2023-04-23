@@ -60,10 +60,12 @@ img {
 }
 .ixon-mail {
   margin-right: 10px;
+  fill: var(--text-contacts-color);
 }
 
 .ixon-tel {
   margin-right: 10px;
+  fill: var(--text-contacts-color);
 }
 /*LOGO*/
 .logo-link {
